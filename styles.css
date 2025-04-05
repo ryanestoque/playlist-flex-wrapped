@@ -1,0 +1,177 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100vh;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+img {
+  max-width: 90%;
+  margin-top: 8px;
+  height: auto;
+  border-radius: 3px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #111;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 5rem;
+}
+
+.track {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 140px;
+  height: 205px;
+  color: #eee;
+  border: none;
+  border-radius: 5px;
+  font-family: system-ui;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.5s, box-shadow 0.5s;
+}
+
+.info {
+  align-self: flex-start;
+  padding: 5px 8px;
+  font-size: 0.8rem;
+}
+
+.info .artist {
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-top: 3px;
+}
+
+.info img {
+  max-width: 33%;
+  margin-top: 10px;
+}
+
+#track1 {
+  background-color: #000020;
+}
+
+#track1:hover {
+  background-color: #000080;
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#track2 {
+  background-color:hsl(25, 16%, 11%);
+}
+
+#track2:hover {
+  background-color:hsl(25, 16%, 21%);
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#track3 {
+  background-color: #111;
+}
+
+#track3:hover {
+  background-color: #333;
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#track4 {
+  background-color: hsl(40, 59%, 15%);
+}
+
+#track4:hover {
+  background-color: hsl(40, 59%, 25%);
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#track5 {
+  background-color:hsl(0, 40%, 20%);
+}
+
+#track5:hover {
+  background-color:hsl(0, 40%, 30%);
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#track6 {
+  background-color:hsl(120, 40%, 10%);
+}
+
+#track6:hover {
+  background-color:hsl(120, 40%, 20%);
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#track7 {
+  background-color:hsl(0, 18%, 25%);
+}
+
+#track7:hover {
+  background-color:hsl(0, 18%, 35%);
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#track8 {
+  background-color: hsl(82, 39%, 12%);
+}
+
+#track8:hover {
+  background-color: hsl(82, 39%, 22%);
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#track9 {
+  background-color:hsl(180, 20%, 15%);
+}
+
+#track9:hover {
+  background-color:hsl(180, 20%, 25%);
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#track10 {
+  background-color:hsl(25, 16%, 5%);
+}
+
+#track10:hover {
+  background-color:hsl(25, 16%, 15%);
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#track11 {
+  background-color:hsl(330, 100%, 11%);
+}
+
+#track11:hover {
+  background-color:hsl(330, 100%, 21%);
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
+
+#track12 {
+  background-color:hsl(250, 5%, 10%);
+}
+
+#track12:hover {
+  background-color:hsl(250, 5%, 20%);
+  box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.8);
+}
